@@ -1,0 +1,19 @@
+/* About.css */
+
+.about-container {
+  padding: 20px;
+  text-align: center;
+  margin-top: 22vh; /* Adjust the value to control the space between the header and the About section */
+  border-radius: 10px;
+  /* margin-top: 20vh; */
+}
+
+.about-title {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #666;
+}

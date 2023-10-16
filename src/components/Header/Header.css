@@ -1,0 +1,51 @@
+/* Header.css */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #0077B6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-name {
+  font-size: 2rem;
+  /* font-weight: bold; */
+  /* font-family: 'Fantasy', 'Papyrus', cursive; Use 'Fantasy' and 'Papyrus' fonts */
+  color: #0077B6;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
+  /* transition: transform 0.2s; */
+  cursor: pointer;
+}
+
+.header-name:hover {
+  transform: scale(1.1);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 10vh;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #0077B6;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+/* .header-link:hover { */
+  /* Add hover styles here if needed */
+/* } */
