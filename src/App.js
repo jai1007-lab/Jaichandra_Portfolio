@@ -1,25 +1,36 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Updated import
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Contact from './components/Contact/Contact.js';
+import './Home.css'; // Import the CSS file
+// import '../Header/Header.js'
+import Projects from '../Projects/Projects'
+import About from '../About/About'
 
-function App() {
+import Contact from '../Contact/Contact';
+
+// const projects = [
+//   {
+//     title: 'Project 1',
+//     description: 'Description of Project 1.',
+//   },
+//   {
+//     title: 'Project 2',
+//     description: 'Description of Project 2.',
+//   },
+//   // Add more projects as needed
+// ];
+
+const Home = () => {
   return (
-    <Router>
-      <div>
-      <Header/>
-        <Routes> {/* Updated to use Routes */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-}
+    <div> 
 
-export default App;
+    <About />
+
+    <Projects />
+
+    <hr></hr>
+
+    <Contact />
+    </div>
+  );
+};
+
+export default Home;
